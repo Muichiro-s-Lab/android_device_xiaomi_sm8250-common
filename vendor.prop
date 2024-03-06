@@ -46,6 +46,9 @@ drm.service.enabled=true
 # Fingerprint
 persist.vendor.qfp=false
 
+# Filesystem
+fs_mgr.overlayfs.prefer_cache_backing_storage=true
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
